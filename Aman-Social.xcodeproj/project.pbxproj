@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A76A5B29D3E02A02DEACB46 /* Pods_Aman_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */; };
 		9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6D1ECC288400068B16 /* AppDelegate.swift */; };
-		9DF86F701ECC288400068B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* ViewController.swift */; };
+		9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* SignInVC.swift */; };
 		9DF86F731ECC288400068B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F711ECC288400068B16 /* Main.storyboard */; };
 		9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */; };
 		9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F771ECC288400068B16 /* Assets.xcassets */; };
 		9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */; };
+		9DF86F831ECC29BA00068B16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.release.xcconfig"; sourceTree = "<group>"; };
+		748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.debug.xcconfig"; sourceTree = "<group>"; };
+		95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aman_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF86F6A1ECC288400068B16 /* Aman-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aman-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF86F6D1ECC288400068B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF86F6F1ECC288400068B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DF86F6F1ECC288400068B16 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		9DF86F721ECC288400068B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF86F751ECC288400068B16 /* Aman_Social.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aman_Social.xcdatamodel; sourceTree = "<group>"; };
 		9DF86F771ECC288400068B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF86F7A1ECC288400068B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF86F7C1ECC288400068B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A76A5B29D3E02A02DEACB46 /* Pods_Aman_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3966001B8F8A5E92F760511B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA3D25601AAC5A6CC07C8EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */,
+				698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9DF86F611ECC288400068B16 = {
 			isa = PBXGroup;
 			children = (
 				9DF86F6C1ECC288400068B16 /* Aman-Social */,
 				9DF86F6B1ECC288400068B16 /* Products */,
+				8EA3D25601AAC5A6CC07C8EC /* Pods */,
+				3966001B8F8A5E92F760511B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,40 @@
 		9DF86F6C1ECC288400068B16 /* Aman-Social */ = {
 			isa = PBXGroup;
 			children = (
-				9DF86F6D1ECC288400068B16 /* AppDelegate.swift */,
-				9DF86F6F1ECC288400068B16 /* ViewController.swift */,
+				9DF86F861ECC3AD700068B16 /* Controller */,
+				9DF86F841ECC3AC500068B16 /* Model */,
+				9DF86F851ECC3ACF00068B16 /* View */,
 				9DF86F711ECC288400068B16 /* Main.storyboard */,
+				9DF86F6D1ECC288400068B16 /* AppDelegate.swift */,
 				9DF86F771ECC288400068B16 /* Assets.xcassets */,
 				9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */,
 				9DF86F7C1ECC288400068B16 /* Info.plist */,
+				9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */,
 				9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */,
 			);
 			path = "Aman-Social";
+			sourceTree = "<group>";
+		};
+		9DF86F841ECC3AC500068B16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9DF86F851ECC3ACF00068B16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9DF86F861ECC3AD700068B16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DF86F7F1ECC288400068B16 /* Build configuration list for PBXNativeTarget "Aman-Social" */;
 			buildPhases = (
+				1955B71121E28E8383C8AF23 /* [CP] Check Pods Manifest.lock */,
 				9DF86F661ECC288400068B16 /* Sources */,
 				9DF86F671ECC288400068B16 /* Frameworks */,
 				9DF86F681ECC288400068B16 /* Resources */,
+				F3EB09A89B1BCAA1BC3E1F1A /* [CP] Embed Pods Frameworks */,
+				B2F127A58A9CF8BD7E0A2036 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,17 +183,66 @@
 				9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */,
 				9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */,
 				9DF86F731ECC288400068B16 /* Main.storyboard in Resources */,
+				9DF86F831ECC29BA00068B16 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1955B71121E28E8383C8AF23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F127A58A9CF8BD7E0A2036 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EB09A89B1BCAA1BC3E1F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DF86F661ECC288400068B16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF86F701ECC288400068B16 /* ViewController.swift in Sources */,
+				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
 				9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */,
 			);
@@ -264,6 +367,7 @@
 		};
 		9DF86F801ECC288400068B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Aman-Social/Info.plist";
@@ -276,6 +380,7 @@
 		};
 		9DF86F811ECC288400068B16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Aman-Social/Info.plist";
@@ -305,6 +410,7 @@
 				9DF86F811ECC288400068B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
