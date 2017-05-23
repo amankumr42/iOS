@@ -8,19 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		7A76A5B29D3E02A02DEACB46 /* Pods_Aman_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */; };
+		9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B21ECC6B7200EED1F9 /* FancyView.swift */; };
+		9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B51ECC6E3D00EED1F9 /* Constants.swift */; };
+		9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B71ECC750000EED1F9 /* RoundBtn.swift */; };
+		9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */; };
+		9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */; };
+		9DEC2AE21ED2C7A30025EC99 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */; };
+		9DEC2AE41ED2C7D40025EC99 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE31ED2C7D40025EC99 /* FBSDKCoreKit.framework */; };
+		9DEC2AE61ED2C7E90025EC99 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE51ED2C7E90025EC99 /* FBSDKLoginKit.framework */; };
+		9DEC2AE81ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE71ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework */; };
+		9DEC2AEA1ED2F6EB0025EC99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */; };
 		9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6D1ECC288400068B16 /* AppDelegate.swift */; };
 		9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* SignInVC.swift */; };
 		9DF86F731ECC288400068B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F711ECC288400068B16 /* Main.storyboard */; };
 		9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */; };
 		9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F771ECC288400068B16 /* Assets.xcassets */; };
 		9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */; };
-		9DF86F831ECC29BA00068B16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.release.xcconfig"; sourceTree = "<group>"; };
 		748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.debug.xcconfig"; sourceTree = "<group>"; };
 		95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aman_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8289B21ECC6B7200EED1F9 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		9D8289B51ECC6E3D00EED1F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D8289B71ECC750000EED1F9 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9DEC2AE31ED2C7D40025EC99 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9DEC2AE51ED2C7E90025EC99 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9DEC2AE71ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DEC2AEB1ED30E250025EC99 /* Aman-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aman-Social.entitlements"; sourceTree = "<group>"; };
 		9DF86F6A1ECC288400068B16 /* Aman-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aman-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF86F6D1ECC288400068B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF86F6F1ECC288400068B16 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -29,7 +49,6 @@
 		9DF86F771ECC288400068B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF86F7A1ECC288400068B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF86F7C1ECC288400068B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A76A5B29D3E02A02DEACB46 /* Pods_Aman_Social.framework in Frameworks */,
+				9DEC2AE41ED2C7D40025EC99 /* FBSDKCoreKit.framework in Frameworks */,
+				9DEC2AE81ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				9DEC2AE61ED2C7E90025EC99 /* FBSDKLoginKit.framework in Frameworks */,
+				9DEC2AE21ED2C7A30025EC99 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,10 @@
 		3966001B8F8A5E92F760511B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DEC2AE71ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework */,
+				9DEC2AE51ED2C7E90025EC99 /* FBSDKLoginKit.framework */,
+				9DEC2AE31ED2C7D40025EC99 /* FBSDKCoreKit.framework */,
+				9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */,
 				95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +86,14 @@
 				698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D8289B41ECC6D7F00EED1F9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9D8289B51ECC6E3D00EED1F9 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		9DF86F611ECC288400068B16 = {
@@ -82,6 +117,8 @@
 		9DF86F6C1ECC288400068B16 /* Aman-Social */ = {
 			isa = PBXGroup;
 			children = (
+				9DEC2AEB1ED30E250025EC99 /* Aman-Social.entitlements */,
+				9D8289B41ECC6D7F00EED1F9 /* Util */,
 				9DF86F861ECC3AD700068B16 /* Controller */,
 				9DF86F841ECC3AC500068B16 /* Model */,
 				9DF86F851ECC3ACF00068B16 /* View */,
@@ -90,7 +127,7 @@
 				9DF86F771ECC288400068B16 /* Assets.xcassets */,
 				9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */,
 				9DF86F7C1ECC288400068B16 /* Info.plist */,
-				9DF86F821ECC29BA00068B16 /* GoogleService-Info.plist */,
+				9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */,
 				9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */,
 			);
 			path = "Aman-Social";
@@ -106,7 +143,10 @@
 		9DF86F851ECC3ACF00068B16 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
+				9D8289B21ECC6B7200EED1F9 /* FancyView.swift */,
+				9D8289B71ECC750000EED1F9 /* RoundBtn.swift */,
+				9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */,
+				9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -114,6 +154,7 @@
 		9DF86F861ECC3AD700068B16 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -153,7 +194,13 @@
 				TargetAttributes = {
 					9DF86F691ECC288400068B16 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KP4VET68R9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -181,9 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */,
+				9DEC2AEA1ED2F6EB0025EC99 /* GoogleService-Info.plist in Resources */,
 				9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */,
 				9DF86F731ECC288400068B16 /* Main.storyboard in Resources */,
-				9DF86F831ECC29BA00068B16 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */,
 				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
+				9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */,
+				9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */,
+				9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */,
+				9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */,
 				9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +422,12 @@
 			baseConfigurationReference = 748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Aman-Social/Aman-Social.entitlements";
+				DEVELOPMENT_TEAM = KP4VET68R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Aman-Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Aman-Social";
@@ -383,6 +441,12 @@
 			baseConfigurationReference = 698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Aman-Social/Aman-Social.entitlements";
+				DEVELOPMENT_TEAM = KP4VET68R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Aman-Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Aman-Social";

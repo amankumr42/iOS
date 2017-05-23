@@ -9,6 +9,9 @@
 import UIKit
 import CoreData
 import Firebase
+import FBSDKLoginKit
+import FBSDKCoreKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,18 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     
-    // Changed manualy private externally added in order to remove warning
-    
-     func application(_application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?)
-        -> Bool {
-            FIRApp.configure()
-            return true
-    }
- 
-
+   
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        FBSDKAppEvents.activateApp()
+        FBSDKApplicationDelegate.sharedInstance().application( application, didFinishLaunchingWithOptions: launchOptions)
+        
         return true
     }
 
@@ -54,6 +52,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
+   // func application (_ application : UIApplication, open url : URL ,sourceApplication: String? , annotation : AnyObject)-//> Bool{
+        //return FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication  : sourceApplication, annotation : annotation)
+   // }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+    
+        let facebookDidHandle = FBSDKApplicationDelegate.sharedInstance().application(
+            application,
+            open: url,
+            sourceApplication: sourceApplication,
+            annotation: annotation)
+        // Add any custom logic here.
+        return facebookDidHandle
+    }
+    
+    
 
     // MARK: - Core Data stack
 
@@ -99,6 +114,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
-
