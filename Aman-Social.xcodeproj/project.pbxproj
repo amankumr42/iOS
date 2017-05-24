@@ -11,6 +11,10 @@
 		9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B21ECC6B7200EED1F9 /* FancyView.swift */; };
 		9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B51ECC6E3D00EED1F9 /* Constants.swift */; };
 		9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B71ECC750000EED1F9 /* RoundBtn.swift */; };
+		9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */; };
+		9DDF52291ED58B5400F8EB28 /* ChildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */; };
+		9DDF522B1ED58B6A00F8EB28 /* ChildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */; };
+		9DDF522D1ED591C200F8EB28 /* ChildViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */; };
 		9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */; };
 		9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */; };
 		9DEC2AE21ED2C7A30025EC99 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */; };
@@ -33,6 +37,10 @@
 		9D8289B21ECC6B7200EED1F9 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		9D8289B51ECC6E3D00EED1F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9D8289B71ECC750000EED1F9 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainParentVC.swift; sourceTree = "<group>"; };
+		9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController1.swift; sourceTree = "<group>"; };
+		9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController2.swift; sourceTree = "<group>"; };
+		9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController3.swift; sourceTree = "<group>"; };
 		9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -99,6 +107,7 @@
 		9DF86F611ECC288400068B16 = {
 			isa = PBXGroup;
 			children = (
+				9DF86F711ECC288400068B16 /* Main.storyboard */,
 				9DF86F6C1ECC288400068B16 /* Aman-Social */,
 				9DF86F6B1ECC288400068B16 /* Products */,
 				8EA3D25601AAC5A6CC07C8EC /* Pods */,
@@ -122,7 +131,6 @@
 				9DF86F861ECC3AD700068B16 /* Controller */,
 				9DF86F841ECC3AC500068B16 /* Model */,
 				9DF86F851ECC3ACF00068B16 /* View */,
-				9DF86F711ECC288400068B16 /* Main.storyboard */,
 				9DF86F6D1ECC288400068B16 /* AppDelegate.swift */,
 				9DF86F771ECC288400068B16 /* Assets.xcassets */,
 				9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */,
@@ -155,6 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
+				9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */,
+				9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */,
+				9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */,
+				9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,9 +306,13 @@
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
 				9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */,
 				9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */,
+				9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */,
 				9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */,
 				9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */,
 				9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */,
+				9DDF52291ED58B5400F8EB28 /* ChildViewController1.swift in Sources */,
+				9DDF522B1ED58B6A00F8EB28 /* ChildViewController2.swift in Sources */,
+				9DDF522D1ED591C200F8EB28 /* ChildViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,7 @@
 				9DF86F721ECC288400068B16 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Aman-Social";
 			sourceTree = "<group>";
 		};
 		9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */ = {
