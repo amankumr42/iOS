@@ -7,29 +7,33 @@
 //
 
 import UIKit
+import Firebase
+import SwiftKeychainWrapper
 
 class signOut: UIViewController {
-
+/// SignOut not attached
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    /// ADDD IB ACTION that is pusing the button so add the IBACTION using button of signout
+    
+    @IBAction func signOutTapped(_ sender : Any){
+   let keychainResult =   KeychainWrapper.standard.removeObject(forKey: KEY_UID)
+        
+        print ("JMM : Getting the keychainResult and ID removed from key chain\(keychainResult)")
+        try! FIRAuth.auth()?.signOut()
+        
+        // add the segue to the first page from this page
+        performSegue(withIdentifier: "goToSignIN", sender: nil)
+        // withIdentifier is the name of seague connecting to the first page
+        
     }
-    */
 
+    
+    
+    
 }

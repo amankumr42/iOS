@@ -22,12 +22,20 @@ class SignInVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID){
-            performSegue(withIdentifier: "goToFeed" , sender: nil)
-        }
+        
         
         
     }
+    
+    // If it is aleady login by user it will direct to the main page...
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID){
+            performSegue(withIdentifier: "goToFeed" , sender: nil)
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

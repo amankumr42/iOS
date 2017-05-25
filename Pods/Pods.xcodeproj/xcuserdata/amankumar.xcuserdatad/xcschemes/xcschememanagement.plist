@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Auk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -49,30 +54,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>moa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>01D6D357BCB02DD66F47478D3CB9DA8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>081571285DCF82C35641C273A1D7ADEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>14465FC28324FBB065DDCCBD77FA238C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>44CAD6CE523055ED339E87154473A254</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9BC11115C56FCAC2EA67B0F01C2E5138</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B2454739CB746E13E0C552A761C70959</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B71C004DC253492759C04B5AE8542FBC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +102,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ECF7D8FCB84C16A8542491241BFF1FA3</key>
+		<key>C6DEFA22CCEEB5F1F1D43D157996301F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F109DA4C6215702C9694B02E271EF573</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4BB3455A33B29045472A3DB8A5FA8FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

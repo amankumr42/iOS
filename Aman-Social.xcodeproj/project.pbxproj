@@ -12,9 +12,12 @@
 		9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B51ECC6E3D00EED1F9 /* Constants.swift */; };
 		9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B71ECC750000EED1F9 /* RoundBtn.swift */; };
 		9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */; };
-		9DDF52291ED58B5400F8EB28 /* ChildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */; };
-		9DDF522B1ED58B6A00F8EB28 /* ChildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */; };
-		9DDF522D1ED591C200F8EB28 /* ChildViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */; };
+		9DDF52291ED58B5400F8EB28 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52281ED58B5400F8EB28 /* feedViewController.swift */; };
+		9DDF522B1ED58B6A00F8EB28 /* youViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */; };
+		9DDF522D1ED591C200F8EB28 /* eventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522C1ED591C200F8EB28 /* eventViewController.swift */; };
+		9DDF522F1ED5A41400F8EB28 /* signOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522E1ED5A41400F8EB28 /* signOut.swift */; };
+		9DDF52311ED6018600F8EB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDF52301ED6018600F8EB28 /* Assets.xcassets */; };
+		9DDFDB281ED7356700303D8D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFDB271ED7356700303D8D /* PostCell.swift */; };
 		9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */; };
 		9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */; };
 		9DEC2AE21ED2C7A30025EC99 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */; };
@@ -26,7 +29,6 @@
 		9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* SignInVC.swift */; };
 		9DF86F731ECC288400068B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F711ECC288400068B16 /* Main.storyboard */; };
 		9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */; };
-		9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F771ECC288400068B16 /* Assets.xcassets */; };
 		9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +40,13 @@
 		9D8289B51ECC6E3D00EED1F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9D8289B71ECC750000EED1F9 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainParentVC.swift; sourceTree = "<group>"; };
-		9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController1.swift; sourceTree = "<group>"; };
-		9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController2.swift; sourceTree = "<group>"; };
-		9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController3.swift; sourceTree = "<group>"; };
+		9DDF52281ED58B5400F8EB28 /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = youViewController.swift; sourceTree = "<group>"; };
+		9DDF522C1ED591C200F8EB28 /* eventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
+		9DDF522E1ED5A41400F8EB28 /* signOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signOut.swift; sourceTree = "<group>"; };
+		9DDF52301ED6018600F8EB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DDF52321ED6ACAD00F8EB28 /* applejuc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = applejuc.ttf; sourceTree = "<group>"; };
+		9DDFDB271ED7356700303D8D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		9DEC2AE11ED2C7A30025EC99 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -54,7 +60,6 @@
 		9DF86F6F1ECC288400068B16 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		9DF86F721ECC288400068B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF86F751ECC288400068B16 /* Aman_Social.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aman_Social.xcdatamodel; sourceTree = "<group>"; };
-		9DF86F771ECC288400068B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF86F7A1ECC288400068B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF86F7C1ECC288400068B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +104,7 @@
 		9D8289B41ECC6D7F00EED1F9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9DDF52321ED6ACAD00F8EB28 /* applejuc.ttf */,
 				9D8289B51ECC6E3D00EED1F9 /* Constants.swift */,
 			);
 			name = Util;
@@ -108,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				9DF86F711ECC288400068B16 /* Main.storyboard */,
+				9DDF52301ED6018600F8EB28 /* Assets.xcassets */,
 				9DF86F6C1ECC288400068B16 /* Aman-Social */,
 				9DF86F6B1ECC288400068B16 /* Products */,
 				8EA3D25601AAC5A6CC07C8EC /* Pods */,
@@ -132,7 +139,6 @@
 				9DF86F841ECC3AC500068B16 /* Model */,
 				9DF86F851ECC3ACF00068B16 /* View */,
 				9DF86F6D1ECC288400068B16 /* AppDelegate.swift */,
-				9DF86F771ECC288400068B16 /* Assets.xcassets */,
 				9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */,
 				9DF86F7C1ECC288400068B16 /* Info.plist */,
 				9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */,
@@ -155,6 +161,7 @@
 				9D8289B71ECC750000EED1F9 /* RoundBtn.swift */,
 				9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */,
 				9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */,
+				9DDFDB271ED7356700303D8D /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -164,9 +171,10 @@
 			children = (
 				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
 				9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */,
-				9DDF52281ED58B5400F8EB28 /* ChildViewController1.swift */,
-				9DDF522A1ED58B6A00F8EB28 /* ChildViewController2.swift */,
-				9DDF522C1ED591C200F8EB28 /* ChildViewController3.swift */,
+				9DDF52281ED58B5400F8EB28 /* feedViewController.swift */,
+				9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */,
+				9DDF522C1ED591C200F8EB28 /* eventViewController.swift */,
+				9DDF522E1ED5A41400F8EB28 /* signOut.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -241,7 +249,7 @@
 			files = (
 				9DF86F7B1ECC288400068B16 /* LaunchScreen.storyboard in Resources */,
 				9DEC2AEA1ED2F6EB0025EC99 /* GoogleService-Info.plist in Resources */,
-				9DF86F781ECC288400068B16 /* Assets.xcassets in Resources */,
+				9DDF52311ED6018600F8EB28 /* Assets.xcassets in Resources */,
 				9DF86F731ECC288400068B16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,15 +312,17 @@
 				9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */,
 				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
+				9DDF522F1ED5A41400F8EB28 /* signOut.swift in Sources */,
 				9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */,
 				9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */,
 				9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */,
+				9DDFDB281ED7356700303D8D /* PostCell.swift in Sources */,
 				9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */,
 				9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */,
 				9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */,
-				9DDF52291ED58B5400F8EB28 /* ChildViewController1.swift in Sources */,
-				9DDF522B1ED58B6A00F8EB28 /* ChildViewController2.swift in Sources */,
-				9DDF522D1ED591C200F8EB28 /* ChildViewController3.swift in Sources */,
+				9DDF52291ED58B5400F8EB28 /* feedViewController.swift in Sources */,
+				9DDF522B1ED58B6A00F8EB28 /* youViewController.swift in Sources */,
+				9DDF522D1ED591C200F8EB28 /* eventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,16 +11,32 @@ import XLPagerTabStrip
 
 class youViewController: UIViewController , IndicatorInfoProvider    {
 
+    @IBOutlet weak var featureScrollView: UIScrollView!
+    var imageArray = [UIImage]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+ 
+        imageArray = [#imageLiteral(resourceName: "sliderImg3"), #imageLiteral(resourceName: "sliderImg2"),#imageLiteral(resourceName: "sliderImg1")]
+        
+        for i in 0..<imageArray.count{
+            
+            let imageView = UIImageView()
+            imageView.image = imageArray[i]
+            imageView.contentMode = .scaleAspectFit
+            let xPosition = (self.view.frame.width) * CGFloat(i)
+            imageView.frame =  CGRect(x: xPosition, y: 0, width: self.featureScrollView.frame.width, height: self.featureScrollView.frame.height)
+            featureScrollView.scrollRectToVisible( imageView.frame, animated: true)
+            featureScrollView.contentSize.width = featureScrollView.frame.width * CGFloat(i + 1)
+            featureScrollView.addSubview(imageView)
+            //featureScrollView.scrollRectToVisible( imageView.frame, animated: true)
+        }
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         return IndicatorInfo(title : "YOU")

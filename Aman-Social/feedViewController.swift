@@ -10,20 +10,37 @@ import UIKit
 import XLPagerTabStrip
 
 
-class feedViewController: UIViewController , IndicatorInfoProvider {
+
+//extends class UITableViewDataSource and UITableViewDelegate must for implementing table View Cell and table view cell
+
+
+class feedViewController: UIViewController , IndicatorInfoProvider ,UITableViewDelegate,UITableViewDataSource{
+    
+    @IBOutlet weak var tableView: UITableView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //To succeesfully implement the table view cell need to implement the three function "number of section" ,
+    //"number of rowinsection" and "CellFor AT" : WARNING : If u don't add these yu will be getting the error 
+    // message u need to add the above three delegates
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return  tableView.dequeueReusableCell(withIdentifier: "PostCell")  as! PostCell
+        
     }
     
-
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         return IndicatorInfo(title : "FEED")
     }
