@@ -25,6 +25,7 @@
 		9DEC2AE61ED2C7E90025EC99 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE51ED2C7E90025EC99 /* FBSDKLoginKit.framework */; };
 		9DEC2AE81ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC2AE71ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework */; };
 		9DEC2AEA1ED2F6EB0025EC99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */; };
+		9DF449241ED7F8F0004B8529 /* EventPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF449231ED7F8F0004B8529 /* EventPostCell.swift */; };
 		9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6D1ECC288400068B16 /* AppDelegate.swift */; };
 		9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* SignInVC.swift */; };
 		9DF86F731ECC288400068B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F711ECC288400068B16 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		9DEC2AE71ED2C7F30025EC99 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DEC2AEB1ED30E250025EC99 /* Aman-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aman-Social.entitlements"; sourceTree = "<group>"; };
+		9DF449231ED7F8F0004B8529 /* EventPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPostCell.swift; sourceTree = "<group>"; };
 		9DF86F6A1ECC288400068B16 /* Aman-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aman-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF86F6D1ECC288400068B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF86F6F1ECC288400068B16 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */,
 				9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */,
 				9DDFDB271ED7356700303D8D /* PostCell.swift */,
+				9DF449231ED7F8F0004B8529 /* EventPostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */,
+				9DF449241ED7F8F0004B8529 /* EventPostCell.swift in Sources */,
 				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
 				9DDF522F1ED5A41400F8EB28 /* signOut.swift in Sources */,

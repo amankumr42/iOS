@@ -355,16 +355,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="271" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qdW-GB-2iY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="257" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qdW-GB-2iY">
+                                <rect key="frame" x="0.0" y="-8" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="271" id="1WF-dy-5yk">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="271"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventPostCell" rowHeight="257" id="1WF-dy-5yk" customClass="EventPostCell" customModule="Aman_Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="257"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1WF-dy-5yk" id="kDS-eo-fNU">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="270.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="257"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sliderImg3" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-np-RbM">
@@ -408,16 +408,27 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="eventImg" destination="aeb-np-RbM" id="W5A-bK-y1A"/>
+                                            <outlet property="eventLocation" destination="evN-pt-U9W" id="0Ll-k5-Cnn"/>
+                                            <outlet property="eventName" destination="672-8P-rYY" id="KDY-DL-ywc"/>
+                                            <outlet property="eventPlace" destination="3Xp-47-X1U" id="ojS-JL-SXN"/>
+                                            <outlet property="eventTime" destination="NyN-KO-s9a" id="6He-Zu-4lE"/>
+                                            <outlet property="eventType" destination="dg1-Dm-1su" id="JkT-Kp-wdv"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableViewEvent" destination="qdW-GB-2iY" id="OaL-GV-Wr5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOa-nB-MeB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="783"/>
+            <point key="canvasLocation" x="1669" y="783"/>
         </scene>
         <!--Main ParentVC-->
         <scene sceneID="B5i-sM-C2X">
