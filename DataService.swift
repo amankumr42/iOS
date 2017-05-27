@@ -16,8 +16,21 @@ class DataService{
  static let ds = DataService()
     
     private var _REF_BASE = DB_BASE
-    private var _REF_POSTS = DB_BASE.child("Post")
-    private var _REF_USERS = DB_BASE.child("users")
+    private var _REF_POSTS = DB_BASE.child("post")
+    private var _REF_USERS = DB_BASE.child("user")
+    private var _REF_ADMIN = DB_BASE.child("admin")
+    private var _REF_ADS = DB_BASE.child("ads")
+    private var _REF_APP_CONTACTS = DB_BASE.child("app_contacts")
+    private var _REF_EVENT = DB_BASE.child("event")
+    private var _REF_FB_USER = DB_BASE.child("fb_user")
+    private var _REF_PENDING_EVENT = DB_BASE.child("pending_event")
+    private var _REF_STORIES = DB_BASE.child("stories")
+    private var _REF_TICKET = DB_BASE.child("ticket")
+    private var _REF_VENDOR = DB_BASE.child("vendor")
+    
+    
+    
+    
     
     var REF_BASE : FIRDatabaseReference{
         return _REF_BASE
@@ -31,7 +44,42 @@ class DataService{
         return _REF_USERS
     }
     
-    //
+    var REF_ADMIN : FIRDatabaseReference{
+        return _REF_ADMIN
+    }
+    
+    var REF_ADS : FIRDatabaseReference{
+        return _REF_ADS
+    }
+    
+    var REF_APP : FIRDatabaseReference{
+        return _REF_APP_CONTACTS
+    }
+    var REF_Event:FIRDatabaseReference{
+        return _REF_EVENT
+    }
+    
+    var REF_FB_USER : FIRDatabaseReference  {
+        return _REF_FB_USER
+    }
+    
+    var REF_PENDING_EVENT : FIRDatabaseReference    {
+        return _REF_PENDING_EVENT
+    }
+    
+    var REF_STORIES : FIRDatabaseReference{
+        return _REF_STORIES
+    }
+    var REF_TICKET : FIRDatabaseReference   {
+        return _REF_TICKET
+    }
+    var REF_VENDOR : FIRDatabaseReference{
+        return _REF_VENDOR
+    }
+    
+    
+    
+    // creaetedFirebase user
     func createdFirebaseDBUser(uid : String, userData:Dictionary<String , String>) {
         REF_USERS.child(uid).updateChildValues(userData)
         

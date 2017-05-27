@@ -24,12 +24,19 @@ class feedViewController: UIViewController , IndicatorInfoProvider ,UITableViewD
         tableView.delegate = self
         tableView.dataSource = self
         
+        // Adding the eventListner to XCode it is added in after viewDidLoad()
+        DataService.ds.REF_POSTS.observe(.value , with : {(snapshot) in
+            print (snapshot.value)
+            
+        })
+        
         // Do any additional setup after loading the view.
     }
     
     //To succeesfully implement the table view cell need to implement the three function "number of section" ,
     //"number of rowinsection" and "CellFor AT" : WARNING : If u don't add these yu will be getting the error 
     // message u need to add the above three delegates
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
