@@ -27,6 +27,7 @@
 		9DEC2AEA1ED2F6EB0025EC99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */; };
 		9DF449241ED7F8F0004B8529 /* EventPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF449231ED7F8F0004B8529 /* EventPostCell.swift */; };
 		9DF449281ED82E4F004B8529 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF449271ED82E4F004B8529 /* DataService.swift */; };
+		9DF4492A1ED98835004B8529 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF449291ED98835004B8529 /* Post.swift */; };
 		9DF86F6E1ECC288400068B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6D1ECC288400068B16 /* AppDelegate.swift */; };
 		9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF86F6F1ECC288400068B16 /* SignInVC.swift */; };
 		9DF86F731ECC288400068B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF86F711ECC288400068B16 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		9DEC2AEB1ED30E250025EC99 /* Aman-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aman-Social.entitlements"; sourceTree = "<group>"; };
 		9DF449231ED7F8F0004B8529 /* EventPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPostCell.swift; sourceTree = "<group>"; };
 		9DF449271ED82E4F004B8529 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9DF449291ED98835004B8529 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9DF86F6A1ECC288400068B16 /* Aman-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aman-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF86F6D1ECC288400068B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF86F6F1ECC288400068B16 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		9DF86F841ECC3AC500068B16 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DF449291ED98835004B8529 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				9DF449241ED7F8F0004B8529 /* EventPostCell.swift in Sources */,
 				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
+				9DF4492A1ED98835004B8529 /* Post.swift in Sources */,
 				9DDF522F1ED5A41400F8EB28 /* signOut.swift in Sources */,
 				9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */,
 				9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */,

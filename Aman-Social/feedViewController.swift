@@ -8,6 +8,7 @@
 
 import UIKit
 import XLPagerTabStrip
+import Firebase
 
 
 
@@ -18,6 +19,7 @@ class feedViewController: UIViewController , IndicatorInfoProvider ,UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     
+    var posts = [Post]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,26 +28,51 @@ class feedViewController: UIViewController , IndicatorInfoProvider ,UITableViewD
         
         // Adding the eventListner to XCode it is added in after viewDidLoad()
         DataService.ds.REF_POSTS.observe(.value , with : {(snapshot) in
-            print (snapshot.value)
-            
-        })
+            if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot]{
+                for snap in snapshot{
+                    //print("AMANNN:\(snap)")
+                    if let postDict = snap.value as? Dictionary <String, Any>{
+                        let key =  snap.key
+                        print("AMANNNNN : checking the value of the key\(key)")
+                        print("RAMANNNNN : checking the value of the postData\(postDict)")
+                      let  post = Post(postKey: key, postData: postDict)
+                        self.posts.append(post)
+                    
+                        
+                        
+                        print("TYYYYY: Checking the POst\(post)")
+
+                    }// end of postDict
+                }
+            }
+            self.tableView.reloadData()
+         
+                }
+)
         
-        // Do any additional setup after loading the view.
     }
     
     //To succeesfully implement the table view cell need to implement the three function "number of section" ,
     //"number of rowinsection" and "CellFor AT" : WARNING : If u don't add these yu will be getting the error 
     // message u need to add the above three delegates
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return posts.count
+        
+       
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return  tableView.dequeueReusableCell(withIdentifier: "PostCell")  as! PostCell
+   
+        let post = posts[indexPath.row]
         
+        if let cell   = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell {
+            cell.configureCell(post: post)
+            return cell
+        }else {
+            return PostCell()
+        }
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
