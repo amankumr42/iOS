@@ -14,6 +14,5 @@ pod ‘Firebase/Storage’
 pod 'FBSDKLoginKit'
 pod 'SwiftKeychainWrapper'
 pod 'XLPagerTabStrip', '~> 7.0'
-pod 'moa', '~> 8.0'
-pod 'Auk', '~> 7.0'
+ pod 'ActionButton', '~> 0.1'
 end

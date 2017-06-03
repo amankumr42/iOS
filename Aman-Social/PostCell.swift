@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class PostCell: UITableViewCell {
 
@@ -29,21 +30,45 @@ class PostCell: UITableViewCell {
     }
  
     
-    func configureCell(post : Post){
-        self.post  = post
+    func configureCell (post :Post , img: UIImage? = nil){
+     
+        
+        self.post = post
         self.caption.text = post.text
+        self.likeCount.text = ("/(post.like_count")
         self.usernameLbl.text = post.user_name
-        self.likeCount.text = "\(post.comment_count)"
         
-        
-        
-    }
-    
-    
+        if img != nil{
+            self.postImg.image = img
+        }else{
+           let ref = FIRStorage.storage().reference(forURL: post.image)
+           ref.data(withMaxSize : 2 * 1024 * 1024 ,completion : { (data ,  error) in
+            
+            if error != nil {
+                print ("AMM : Unable to download image from Firebase Storage")
+            }else{
+               print ("AMM : Image downloaded from firebase storage")
+                if let imageData = data {
+                    if let img = UIImage(data: imageData){
+                        self.postImg.image = img
+                    }
+                }
+            }
+                    
+                })
+                
+                
+            }
+        }
+
     @IBAction func ButtonPressed(_ sender: UIButton) {
         changeTxt.setTitle("Liked", for: .normal)
-        
     }
+        
+        
+        }
+
+  
+
     
-    
-}
+

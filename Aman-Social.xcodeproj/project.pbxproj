@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7A76A5B29D3E02A02DEACB46 /* Pods_Aman_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */; };
+		9D71A47D1EDD8050009D7481 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71A47C1EDD8050009D7481 /* MainView.swift */; };
+		9D71A47F1EDD8595009D7481 /* ButtonsDemoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71A47E1EDD8595009D7481 /* ButtonsDemoPresenter.swift */; };
 		9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B21ECC6B7200EED1F9 /* FancyView.swift */; };
 		9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B51ECC6E3D00EED1F9 /* Constants.swift */; };
 		9D8289B81ECC750000EED1F9 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8289B71ECC750000EED1F9 /* RoundBtn.swift */; };
+		9DD029E01EDEBB8B003957B5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD029DF1EDEBB8B003957B5 /* Event.swift */; };
 		9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */; };
 		9DDF52291ED58B5400F8EB28 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF52281ED58B5400F8EB28 /* feedViewController.swift */; };
 		9DDF522B1ED58B6A00F8EB28 /* youViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */; };
@@ -39,15 +42,18 @@
 		698A6F0FD2026151987935A4 /* Pods-Aman-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.release.xcconfig"; sourceTree = "<group>"; };
 		748D0FCFE9ACB9F9CDA7BE7B /* Pods-Aman-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aman-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aman-Social/Pods-Aman-Social.debug.xcconfig"; sourceTree = "<group>"; };
 		95C3777B215DD0C825A14FDD /* Pods_Aman_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aman_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D71A47C1EDD8050009D7481 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9D71A47E1EDD8595009D7481 /* ButtonsDemoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsDemoPresenter.swift; sourceTree = "<group>"; };
 		9D8289B21ECC6B7200EED1F9 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		9D8289B51ECC6E3D00EED1F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9D8289B71ECC750000EED1F9 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		9DD029DF1EDEBB8B003957B5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainParentVC.swift; sourceTree = "<group>"; };
 		9DDF52281ED58B5400F8EB28 /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
 		9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = youViewController.swift; sourceTree = "<group>"; };
 		9DDF522C1ED591C200F8EB28 /* eventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
 		9DDF522E1ED5A41400F8EB28 /* signOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signOut.swift; sourceTree = "<group>"; };
-		9DDF52301ED6018600F8EB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DDF52301ED6018600F8EB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		9DDF52321ED6ACAD00F8EB28 /* applejuc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = applejuc.ttf; sourceTree = "<group>"; };
 		9DDFDB271ED7356700303D8D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		9DEC2ADD1ED2B1300025EC99 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
@@ -122,14 +128,12 @@
 				9DF449271ED82E4F004B8529 /* DataService.swift */,
 			);
 			name = Services;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9DF86F611ECC288400068B16 = {
 			isa = PBXGroup;
 			children = (
-				9DF449251ED82DDE004B8529 /* Services */,
-				9DF86F711ECC288400068B16 /* Main.storyboard */,
-				9DDF52301ED6018600F8EB28 /* Assets.xcassets */,
 				9DF86F6C1ECC288400068B16 /* Aman-Social */,
 				9DF86F6B1ECC288400068B16 /* Products */,
 				8EA3D25601AAC5A6CC07C8EC /* Pods */,
@@ -148,6 +152,7 @@
 		9DF86F6C1ECC288400068B16 /* Aman-Social */ = {
 			isa = PBXGroup;
 			children = (
+				9DF449251ED82DDE004B8529 /* Services */,
 				9DEC2AEB1ED30E250025EC99 /* Aman-Social.entitlements */,
 				9D8289B41ECC6D7F00EED1F9 /* Util */,
 				9DF86F861ECC3AD700068B16 /* Controller */,
@@ -158,6 +163,8 @@
 				9DF86F7C1ECC288400068B16 /* Info.plist */,
 				9DEC2AE91ED2F6EB0025EC99 /* GoogleService-Info.plist */,
 				9DF86F741ECC288400068B16 /* Aman_Social.xcdatamodeld */,
+				9DF86F711ECC288400068B16 /* Main.storyboard */,
+				9DDF52301ED6018600F8EB28 /* Assets.xcassets */,
 			);
 			path = "Aman-Social";
 			sourceTree = "<group>";
@@ -166,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				9DF449291ED98835004B8529 /* Post.swift */,
+				9DD029DF1EDEBB8B003957B5 /* Event.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -179,6 +187,8 @@
 				9DEC2ADF1ED2B3C00025EC99 /* FancyBtn.swift */,
 				9DDFDB271ED7356700303D8D /* PostCell.swift */,
 				9DF449231ED7F8F0004B8529 /* EventPostCell.swift */,
+				9D71A47C1EDD8050009D7481 /* MainView.swift */,
+				9D71A47E1EDD8595009D7481 /* ButtonsDemoPresenter.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -189,8 +199,8 @@
 				9DF86F6F1ECC288400068B16 /* SignInVC.swift */,
 				9DDF52261ED582EC00F8EB28 /* MainParentVC.swift */,
 				9DDF52281ED58B5400F8EB28 /* feedViewController.swift */,
-				9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */,
 				9DDF522C1ED591C200F8EB28 /* eventViewController.swift */,
+				9DDF522A1ED58B6A00F8EB28 /* youViewController.swift */,
 				9DDF522E1ED5A41400F8EB28 /* signOut.swift */,
 			);
 			name = Controller;
@@ -327,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8289B61ECC6E3D00EED1F9 /* Constants.swift in Sources */,
+				9D71A47D1EDD8050009D7481 /* MainView.swift in Sources */,
 				9DF449241ED7F8F0004B8529 /* EventPostCell.swift in Sources */,
 				9DF86F701ECC288400068B16 /* SignInVC.swift in Sources */,
+				9DD029E01EDEBB8B003957B5 /* Event.swift in Sources */,
 				9DF86F761ECC288400068B16 /* Aman_Social.xcdatamodeld in Sources */,
 				9DF4492A1ED98835004B8529 /* Post.swift in Sources */,
 				9DDF522F1ED5A41400F8EB28 /* signOut.swift in Sources */,
@@ -336,6 +348,7 @@
 				9D8289B31ECC6B7200EED1F9 /* FancyView.swift in Sources */,
 				9DF449281ED82E4F004B8529 /* DataService.swift in Sources */,
 				9DDF52271ED582EC00F8EB28 /* MainParentVC.swift in Sources */,
+				9D71A47F1EDD8595009D7481 /* ButtonsDemoPresenter.swift in Sources */,
 				9DDFDB281ED7356700303D8D /* PostCell.swift in Sources */,
 				9DEC2ADE1ED2B1300025EC99 /* FancyField.swift in Sources */,
 				9DEC2AE01ED2B3C00025EC99 /* FancyBtn.swift in Sources */,
@@ -355,7 +368,6 @@
 				9DF86F721ECC288400068B16 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "Aman-Social";
 			sourceTree = "<group>";
 		};
 		9DF86F791ECC288400068B16 /* LaunchScreen.storyboard */ = {

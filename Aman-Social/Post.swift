@@ -24,7 +24,6 @@ class Post{
     var text : String{
         return _text
     }
-    
     var image : String{
         return _image
     }
@@ -93,11 +92,4 @@ class Post{
         }
         
     }
-    
-    
-    
-    
-    
-    
-    
 }
